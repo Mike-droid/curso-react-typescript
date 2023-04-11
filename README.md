@@ -21,3 +21,5 @@ props es un objeto con tipos.
 ### State con tipos primitivos
 
 `useState<string[]>` esto es un genérico.
+
+### State con otros tipos
