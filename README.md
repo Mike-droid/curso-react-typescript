@@ -9,3 +9,7 @@
 En el código, mientras más explícito seas, mejor, porque sabemos qué tipo de dato manejamos.
 
 ### Creando una app con React y TypeScript
+
+## Tipados en React
+
+### Diferentes formas de definir un componente
