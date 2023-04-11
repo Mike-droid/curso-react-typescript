@@ -17,3 +17,7 @@ En el código, mientras más explícito seas, mejor, porque sabemos qué tipo de
 ### El objeto props y children
 
 props es un objeto con tipos.
+
+### State con tipos primitivos
+
+`useState<string[]>` esto es un genérico.
