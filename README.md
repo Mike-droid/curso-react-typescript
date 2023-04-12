@@ -23,3 +23,9 @@ props es un objeto con tipos.
 `useState<string[]>` esto es un genérico.
 
 ### State con otros tipos
+
+## React y el DOM
+
+### Tipos para eventos y callbacks de escuchadores
+
+[React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
