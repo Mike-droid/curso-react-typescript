@@ -29,3 +29,7 @@ props es un objeto con tipos.
 ### Tipos para eventos y callbacks de escuchadores
 
 [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
+
+### Tipos para referencias y observadores
+
+Importante: Poner el tipo de elemento con el que vamos a trabajar e inicializarlo en null.
