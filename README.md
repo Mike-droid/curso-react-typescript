@@ -33,3 +33,5 @@ props es un objeto con tipos.
 ### Tipos para referencias y observadores
 
 Importante: Poner el tipo de elemento con el que vamos a trabajar e inicializarlo en null.
+
+### Lazy loading con observadores
