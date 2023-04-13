@@ -35,3 +35,5 @@ props es un objeto con tipos.
 Importante: Poner el tipo de elemento con el que vamos a trabajar e inicializarlo en null.
 
 ### Lazy loading con observadores
+
+### Componentes que extienden elementos DOM

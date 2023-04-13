@@ -1,4 +1,6 @@
+import { LazyImage } from "@/components/LazyImage"
 import { MouseEventHandler, useState } from "react";
+type ImageItems = { id: string, url: string }
 
 // generate a random number between 1 and 123
 const randomInt = (): number => {
@@ -18,19 +20,12 @@ export const idGenerator = (length: number) => {
   return response
 }
 
-type ImageItems = { id: string, url: string }
 
-import { RandomFox } from "@/components/RandomFox"
 
 export default function Home() {
   const [images, setImages] = useState<ImageItems[]>([])
 
-  const addNewFox: MouseEventHandler<HTMLButtonElement> = (event) => {
-
-    event.preventDefault();
-    const target = event.target;
-    console.log(target);
-
+  const addNewFox: MouseEventHandler<HTMLButtonElement> = () => {
     const newImageItem: ImageItems = {
       id: idGenerator(5),
       url: `https://randomfox.ca/images/${randomInt()}.jpg`,
@@ -49,7 +44,12 @@ export default function Home() {
       {
         images.map(({id, url}) => (
           <div className="p-4" key={id}>
-            <RandomFox image={url} />
+            <LazyImage
+              src={url}
+              title="Random fox"
+              className="rounded bg-gray-300"
+              width={320}
+            />
           </div>
         ))
       }
