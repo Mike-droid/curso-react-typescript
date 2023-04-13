@@ -37,3 +37,8 @@ Importante: Poner el tipo de elemento con el que vamos a trabajar e inicializarl
 ### Lazy loading con observadores
 
 ### Componentes que extienden elementos DOM
+
+### Reto: sigamos extendiendo el DOM
+
+1. Reto 1: onLazyLoad - prop que es función
+2. Reto 2: onLazyLoad SOLO se debe ejecutar 1 vez
