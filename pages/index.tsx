@@ -31,6 +31,7 @@ export default function Home() {
       ...images,
       newImageItem
     ])
+    window.plausible("add_fox")
   }
 
   return (
