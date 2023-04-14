@@ -42,3 +42,9 @@ Importante: Poner el tipo de elemento con el que vamos a trabajar e inicializarl
 
 1. Reto 1: onLazyLoad - prop que es función
 2. Reto 2: onLazyLoad SOLO se debe ejecutar 1 vez
+
+## Configuraciones avanzadas
+
+### Creando tipos propios para la aplicación
+
+Es bueno pero también malo tener tipos globables. Analiza bien tu necesidad de negocio para saber qué sí debería ser global. **No abuses de los tipos globales**.
