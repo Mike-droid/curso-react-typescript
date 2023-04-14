@@ -1,10 +1,9 @@
 import { LazyImage } from "@/components/LazyImage"
 import { MouseEventHandler, useState } from "react";
+import { random } from 'lodash';
 
 // generate a random number between 1 and 123
-const randomInt = (): number => {
-  return Math.floor(Math.random() * 123) + 1;
-}
+const randomInt = () => random(1, 123);
 
 // generate random id as string with TypeScript
 export const idGenerator = (length: number) => {

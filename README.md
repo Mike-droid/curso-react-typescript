@@ -48,3 +48,5 @@ Importante: Poner el tipo de elemento con el que vamos a trabajar e inicializarl
 ### Creando tipos propios para la aplicación
 
 Es bueno pero también malo tener tipos globables. Analiza bien tu necesidad de negocio para saber qué sí debería ser global. **No abuses de los tipos globales**.
+
+### Trabajando con librerías no-tipadas
